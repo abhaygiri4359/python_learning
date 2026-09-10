@@ -1,0 +1,10 @@
+a=float(input("enter the length"))
+b=float(input("ener the breath"))
+c=a*b
+d=2*(a+b)
+print("----------------------------------------------------------------------")
+print("length is={}".format(a))
+print("breath is={}".format(b))
+print("area is={}".format(c))
+print("perimeter is={}".format(d))
+print("-------------------------------------------------------------------===---")
