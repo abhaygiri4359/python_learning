@@ -1,0 +1,17 @@
+num1=int(input("enter first num: "))
+num2=int(input("enter second num: "))
+div=num1/num2
+print(round(div,3))
+print(f"{div:.3f}")
+#print(f"div.2f")
+num = 3.14159
+
+# 2 decimal places
+print(f"{num:.2f}")      # 3.14//this is a new technique to handle decimals
+
+
+# 3 decimal places
+print(f"{num:.3f}")      # 3.142
+
+# 1 decimal place
+print(f"{num:.1f}")      # 3.1
