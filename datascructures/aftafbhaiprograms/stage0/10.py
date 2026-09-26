@@ -6,3 +6,4 @@ print("the average of {},{},{}is =>{}".format(num1,num2,num3,round(average,3)))
 #floating point control by this two technoque
 #round(num,numofdigits) print(f"{num:.3f}")
 #this two technique are very usefulll nowdays
+
