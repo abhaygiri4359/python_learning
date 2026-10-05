@@ -9,8 +9,9 @@ def update2():
     b=b+1
 def update3():
     
-    c=a+10
-    d=b+10
+    c=a+10*3
+    d=b+10*3
+    print("local {},{}".format(c,d))
 a,b=10,20
 print("before update 1 {} {} ".format(a,b))
 update1()
