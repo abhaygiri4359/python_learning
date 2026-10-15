@@ -14,4 +14,9 @@ importlib.reload(shares)
 d=shares.sharesinfo() 
 
 print(d)
+time.sleep(15) 
+print("i am coming after 15 sec ")
+importlib.reload(shares)
+d=shares.sharesinfo()
+print(d)
      
